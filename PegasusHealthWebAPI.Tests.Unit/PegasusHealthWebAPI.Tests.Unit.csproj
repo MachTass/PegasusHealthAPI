@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+
+        <IsPackable>false</IsPackable>
+
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoFixture" Version="4.17.0" />
+        <PackageReference Include="AutoFixture.AutoMoq" Version="4.17.0" />
+        <PackageReference Include="AutoFixture.Xunit2" Version="4.17.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PegasusHealthWebAPI.Tests.Integration\PegasusHealthWebAPI.Tests.Integration.csproj" />
+      <ProjectReference Include="..\PegasusHealthWebApi.Tests.TestUtilities\PegasusHealthWebApi.Tests.TestUtilities.csproj" />
+      <ProjectReference Include="..\PegasusHealthWebAPI\PegasusHealthWebAPI.csproj" />
+    </ItemGroup>
+
+</Project>
