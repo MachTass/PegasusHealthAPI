@@ -1,6 +1,6 @@
 # PegasusHealthAPI
 
-##Running the project
+## Running the project
 
 The launch profile of this project is as follows
 - Launch profile : ToDoApi(Project)
@@ -8,7 +8,7 @@ The launch profile of this project is as follows
 
 Profile parameters are set by PegasusHealthWebAPI\Properties\launchsettings.json
 
-##Next steps
+## Next steps
 - Create separate database
 - Dockerise project startup
 - Fill out unit tests
